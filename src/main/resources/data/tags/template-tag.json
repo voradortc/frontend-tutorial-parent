@@ -1,0 +1,8 @@
+{
+  "id": "template-tag",
+  "sectionText": "Scripting",
+  "subsectionText": "Templates",
+  "titleText": "<template>",
+  "descriptionText": "A piece of code that can be inserted via scripting",
+  "codeText": "<button type=\"button\" style=\"color: black;\" onclick=\"\n    document.getElementById( 'template-container' )\n        .appendChild( document.getElementById( 'template-example' )\n        .content.cloneNode( true ) )\">Add template</button>\n<em id=\"template-container\"></em>\n<template id=\"template-example\">\n  <s>Striked out</s>\n</template>"
+}

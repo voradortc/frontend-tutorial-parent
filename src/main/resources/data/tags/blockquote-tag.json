@@ -1,0 +1,8 @@
+{
+  "id": "blockquote-tag",
+  "sectionText": "Text",
+  "subsectionText": "Quotations",
+  "titleText": "<blockquote>",
+  "descriptionText": "A section that is quoted from another source",
+  "codeText": "<blockquote cite=\"#\">Brought to America from Japan as recently as 60 years ago, Shiba Inus are growing in popularity in the West.</blockquote>"
+}

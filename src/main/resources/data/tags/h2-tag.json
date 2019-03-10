@@ -1,0 +1,8 @@
+{
+  "id": "h2-tag",
+  "sectionText": "Text",
+  "subsectionText": "Sectioning",
+  "titleText": "<h2>",
+  "descriptionText": "A less important heading",
+  "codeText": "<h2 style=\"margin: 0\">Continent</h2>"
+}

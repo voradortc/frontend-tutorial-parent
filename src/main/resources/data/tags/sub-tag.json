@@ -1,0 +1,8 @@
+{
+  "id": "sub-tag",
+  "sectionText": "Text",
+  "subsectionText": "Format",
+  "titleText": "<sub>",
+  "descriptionText": "Subscripted text",
+  "codeText": "H<sub>2</sub>O"
+}

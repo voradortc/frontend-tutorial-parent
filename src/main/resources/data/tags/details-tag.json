@@ -1,0 +1,8 @@
+{
+  "id": "details-tag",
+  "sectionText": "Text",
+  "subsectionText": "Quotations",
+  "titleText": "<details> and <summary>",
+  "descriptionText": "Additional details that the user can view or hide with a visible heading",
+  "codeText": "<details open>\n  <summary>Summary</summary>\n  Some summary information\n</details>"
+}

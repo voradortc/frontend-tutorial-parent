@@ -1,0 +1,8 @@
+{
+  "id": "sup-tag",
+  "sectionText": "Text",
+  "subsectionText": "Format",
+  "titleText": "<sup>",
+  "descriptionText": "Superscripted text",
+  "codeText": "2<sup>8</sup>"
+}

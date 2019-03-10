@@ -1,0 +1,8 @@
+{
+  "id": "strong-tag",
+  "sectionText": "Text",
+  "subsectionText": "Semantics",
+  "titleText": "<strong>",
+  "descriptionText": "Important text",
+  "codeText": "The code is <strong>180.85</strong>"
+}

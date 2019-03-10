@@ -1,0 +1,8 @@
+{
+  "id": "samp-tag",
+  "sectionText": "Text",
+  "subsectionText": "Computercode",
+  "titleText": "<samp>",
+  "descriptionText": "Sample output from a computer program",
+  "codeText": "<samp>Incorrect input detected</samp>"
+}

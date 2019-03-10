@@ -1,0 +1,8 @@
+{
+  "id": "h3-tag",
+  "sectionText": "Text",
+  "subsectionText": "Sectioning",
+  "titleText": "<h3>",
+  "descriptionText": "Important heading",
+  "codeText": "<h3 style=\"margin: 0\">Country</h3>"
+}

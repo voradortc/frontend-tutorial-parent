@@ -1,0 +1,8 @@
+{
+  "id": "ins-tag",
+  "sectionText": "Text",
+  "subsectionText": "Semantics",
+  "titleText": "<ins>",
+  "descriptionText": "A text that has been inserted into a document",
+  "codeText": "Your name is <ins cite=\"#\" datetime=\"2018-08-21T18:32:26Z\">Xavier</ins>"
+}

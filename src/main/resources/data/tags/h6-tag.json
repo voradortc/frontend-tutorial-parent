@@ -1,0 +1,8 @@
+{
+  "id": "h6-tag",
+  "sectionText": "Text",
+  "subsectionText": "Sectioning",
+  "titleText": "<h6>",
+  "descriptionText": "Heading without importance",
+  "codeText": "<h6 style=\"margin: 0\">Burough</h6>"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "del-tag",
+  "sectionText": "Text",
+  "subsectionText": "Semantics",
+  "titleText": "<del>",
+  "descriptionText": "Text that has been deleted from a document",
+  "codeText": "My shirt is <del cite=\"#\" datetime=\"2018-05-16T08:13:56Z\">blue</del> red"
+}

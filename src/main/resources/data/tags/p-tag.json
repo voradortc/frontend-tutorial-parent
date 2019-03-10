@@ -1,0 +1,8 @@
+{
+  "id": "p-tag",
+  "sectionText": "Text",
+  "subsectionText": "Sectioning",
+  "titleText": "<p>",
+  "descriptionText": "A paragraph",
+  "codeText": "<p>Lorem ipsum dolor sit amet, elit dictas mei at.</p>"
+}

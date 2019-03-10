@@ -1,0 +1,8 @@
+{
+  "id": "wbr-tag",
+  "sectionText": "Text",
+  "subsectionText": "Sectioning",
+  "titleText": "<wbr>",
+  "descriptionText": "An optional line-break",
+  "codeText": "Resizing this window will force a break in the middle of the next long text qwertyqwertyqwertyqwertyqwertyqwertyqwertyqwertyqwertyqwerty<wbr/>qwertyqwertyqwertyqwertyqwertyqwertyqwertyqwertyqwertyqwerty"
+}

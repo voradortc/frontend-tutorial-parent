@@ -1,0 +1,8 @@
+{
+  "id": "q-tag",
+  "sectionText": "Text",
+  "subsectionText": "Quotations",
+  "titleText": "<q>",
+  "descriptionText": "A short quotation",
+  "codeText": "He looked at her and said <q cite=\"#\">Frankly, my dear, I don't give a damn</q>"
+}

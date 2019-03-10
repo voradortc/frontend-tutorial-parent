@@ -1,0 +1,8 @@
+{
+  "id": "main-tag",
+  "sectionText": "Containers",
+  "subsectionText": "Semantic Containers",
+  "titleText": "<main>, <nav>, <section>, <article>, <header>, <aside> and <footer>",
+  "descriptionText": "Semantic definitions of content sections",
+  "codeText": "<main style=\"border: 1px dashed gold; align-items: center; display: grid; grid-template-areas: 'example-nav' 'example-header' 'example-article' 'example-footer'; height: 100%; width: 100%;\">\n  <nav style=\"grid-area: example-nav; border: inherit;\">link1 | link2</nav>\n  <header style=\"grid-area: example-header; border: inherit;\">My header</header>\n  <article style=\"justify-content: space-around; display: flex; grid-area: example-article; border: inherit;\">\n    <section style=\"grid-area: example-section; border: inherit;\">Section information</section>\n    <aside style=\"grid-area: example-aside; border: inherit;\">Aside information</aside>\n  </article>\n  <footer style=\"grid-area: example-footer; border: inherit;\">My footer</footer>\n</main>"
+}

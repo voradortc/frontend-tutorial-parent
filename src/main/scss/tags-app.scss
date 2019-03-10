@@ -1,0 +1,73 @@
+@import "~normalize.css";
+
+@font-face {
+  font-family: "Xanadu";
+  font-weight: normal;
+  src: url( "xanadu.ttf" );
+}
+
+@keyframes title-shadow {
+  0% { text-shadow: 0 0 0.75vw #FFD700; }
+  50% { text-shadow: 0 0 1vw #FFD700; }
+  100% { text-shadow: 0 0 0.75vw #FFD700; }
+}
+
+* {
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: "Tahoma", sans-serif;
+}
+
+body {
+  background: #000000 url( "img/background.jpg" ) fixed;
+  font-size: 1vw;
+
+  .tagsMainNav {
+    background-color: #303030;
+    border-bottom: 0.2vw solid #101010;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    opacity: 0.8;
+    padding: 0;
+  }
+
+  .tagsMainTitle {
+    animation: title-shadow 3s infinite;
+    font-family: "Xanadu", sans-serif;
+    font-size: 2.2vw;
+    margin: 0;
+    padding: 2vw 0;
+    text-align: center;
+  }
+}
+
+@media only screen and ( max-width: 768px ) {
+  $nav-height: 4vw;
+
+  body {
+    font-size: 2vw;
+
+    .tagsMainNav {
+      line-height: $nav-height;
+      min-height: $nav-height;
+      position: absolute;
+      z-index: 10;
+
+      &::before {
+        content: "\00A0\00A0\2630";
+      }
+
+      &:hover > * > *:first-child {
+        height: $nav-height;
+      }
+    }
+
+    .tagsMainTitle {
+      font-size: 3.2vw;
+      position: relative;
+      top: $nav-height;
+    }
+  }
+}

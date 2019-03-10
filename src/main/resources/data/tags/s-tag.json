@@ -1,0 +1,8 @@
+{
+  "id": "s-tag",
+  "sectionText": "Text",
+  "subsectionText": "Format",
+  "titleText": "<s>",
+  "descriptionText": "Text that is no longer correct",
+  "codeText": "<s>Misspalling</s> Misspelling"
+}

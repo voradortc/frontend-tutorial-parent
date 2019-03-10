@@ -1,0 +1,8 @@
+{
+  "id": "output-tag",
+  "sectionText": "User Forms and Controls",
+  "subsectionText": "Controls",
+  "titleText": "<output>",
+  "descriptionText": "The result of a calculation",
+  "codeText": "<output name=\"user-creation\" for=\"couch-info\">User not created - System offline</output>"
+}

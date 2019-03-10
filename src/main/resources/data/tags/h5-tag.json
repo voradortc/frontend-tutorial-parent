@@ -1,0 +1,8 @@
+{
+  "id": "h5-tag",
+  "sectionText": "Text",
+  "subsectionText": "Sectioning",
+  "titleText": "<h5>",
+  "descriptionText": "Heading with little importance",
+  "codeText": "<h5 style=\"margin: 0\">City</h5>"
+}

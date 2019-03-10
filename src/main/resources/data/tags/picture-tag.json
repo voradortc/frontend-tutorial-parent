@@ -1,0 +1,8 @@
+{
+  "id": "picture-tag",
+  "sectionText": "Multimedia",
+  "subsectionText": "Images",
+  "titleText": "<picture>, <source> and <img>",
+  "descriptionText": "Responsive picture content",
+  "codeText": "<a href=\"#picture-tag\">\n  <picture>\n    <source media=\"(max-width: 640px)\" srcset=\"data/img/image-small.jpg 365w\" sizes=\"75vw\" type=\"image/jpeg\"/>\n    <source media=\"(min-width: 1280px)\" srcset=\"data/img/image-big.jpg 1440w\" sizes=\"75vw\" type=\"image/jpeg\">\n    <img src=\"data/img/image-medium.jpg\" alt=\"Responsive image\" srcset=\"data/img/image-medium.jpg 730w\" sizes=\"75vw\" ismap style=\"width: 100%;\"/>\n  </picture>\n</a>"
+}

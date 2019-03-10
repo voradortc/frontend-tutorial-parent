@@ -1,0 +1,8 @@
+{
+  "id": "figure-tag",
+  "sectionText": "Text",
+  "subsectionText": "Quotations",
+  "titleText": "<figure> and <figcaption>",
+  "descriptionText": "Self-contained content with a caption element",
+  "codeText": "<figure>\n  y - y<sub>0</sub> = m ( x - x<sub>0</sub> )\n  <figcaption>The line equation</figcaption>\n</figure>"
+}

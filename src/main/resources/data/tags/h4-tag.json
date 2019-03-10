@@ -1,0 +1,8 @@
+{
+  "id": "h4-tag",
+  "sectionText": "Text",
+  "subsectionText": "Sectioning",
+  "titleText": "<h4>",
+  "descriptionText": "Heading of some importance",
+  "codeText": "<h4 style=\"margin: 0\">State</h4>"
+}

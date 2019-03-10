@@ -1,0 +1,8 @@
+{
+  "id": "object-tag",
+  "sectionText": "Containers",
+  "subsectionText": "Standard Containers",
+  "titleText": "<object> and <param>",
+  "descriptionText": "Defines an embedded object and its parameters",
+  "codeText": "<object name=\"example-pdf\"\n\tdata=\"data/files/test.pdf\"\n\ttype=\"application/pdf\"\n\twidth=\"100%\"\n\theight=\"100%\">\n  <param name=\"example-parameter\" value=\"example-value\"/>\n</object>"
+}

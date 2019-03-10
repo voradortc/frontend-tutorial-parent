@@ -1,0 +1,8 @@
+{
+  "id": "bdo-tag",
+  "sectionText": "Text",
+  "subsectionText": "Asia",
+  "titleText": "<bdo> and <bdi>",
+  "descriptionText": "Sample output from a computer program",
+  "codeText": "<bdo dir=\"rtl\">\n  لفشل الشرقي الشهيرة و مدن, أخذ عن دخول وصغار للجزر. <bdi>Overrides the text direction:</bdi>\n</bdo>"
+}

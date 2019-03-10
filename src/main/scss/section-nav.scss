@@ -1,0 +1,62 @@
+$nav-height: 2vw;
+$nav-width: 98vw / 6;
+
+.tagsSectionNav {
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  .tagsSectionNavTitle {
+    display: block;
+    height: $nav-height;
+    line-height: $nav-height;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 1vw;
+    text-align: center;
+    text-overflow: ellipsis;
+    width: $nav-width;
+    white-space: nowrap;
+  }
+
+  .tagsSubsectionsContainerNav {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: $nav-height;
+  }
+
+  &:hover {
+    .tagsSubsectionsContainerNav > * > *:first-child {
+      height: $nav-height;
+    }
+  }
+}
+
+@media only screen and ( max-width: 768px ) {
+  $nav-height: 4vw;
+  $nav-width: 100vw;
+
+  .tagsSectionNav {
+    position: static;
+
+    .tagsSectionNavTitle {
+      height: 0;
+      line-height: $nav-height;
+      text-align: left;
+      transition: height 0.5s ease-in;
+      width: $nav-width;
+    }
+
+    .tagsSubsectionsContainerNav {
+      position: static;
+      top: $nav-height;
+    }
+
+    &:hover {
+      .tagsSubsectionsContainerNav > * > *:first-child {
+        height: $nav-height;
+      }
+    }
+  }
+}

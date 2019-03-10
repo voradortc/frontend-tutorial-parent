@@ -1,0 +1,8 @@
+{
+  "id": "video-tag",
+  "sectionText": "Multimedia",
+  "subsectionText": "Video",
+  "titleText": "<video>, <source> and <track>",
+  "descriptionText": "A video or movie",
+  "codeText": "<video preload=\"metadata\" poster=\"data/img/poster.jpg\" src=\"data/media/test.mp4\" width=\"100%\" height=\"auto\" autoplay controls loop muted>\n  <source src=\"data/media/test.mp4\" type=\"video/mp4\"/>\n  <track kind=\"subtitles\" src=\"data/media/subtitles.vtt\" srclang=\"en\" label=\"English\" default/>\n  Video tag not supported\n</video>"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "code-tag",
+  "sectionText": "Text",
+  "subsectionText": "Computercode",
+  "titleText": "<code>",
+  "descriptionText": "A piece of computer code",
+  "codeText": "<code>let x = y.getProperty( \"X\" );</code>"
+}

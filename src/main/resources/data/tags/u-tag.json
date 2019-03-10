@@ -1,0 +1,8 @@
+{
+  "id": "u-tag",
+  "sectionText": "Text",
+  "subsectionText": "Format",
+  "titleText": "<u>",
+  "descriptionText": "Text that should be stylistically different from normal text",
+  "codeText": "The next word is <u>underlined</u>"
+}

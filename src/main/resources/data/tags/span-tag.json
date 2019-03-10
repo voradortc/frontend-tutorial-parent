@@ -1,0 +1,8 @@
+{
+  "id": "span-tag",
+  "sectionText": "Containers",
+  "subsectionText": "Standard Containers",
+  "titleText": "<span>",
+  "descriptionText": "An inline section in a document",
+  "codeText": "Span is <span style=\"border: 1px dashed red;\">an inline container</span> that doesn't break"
+}

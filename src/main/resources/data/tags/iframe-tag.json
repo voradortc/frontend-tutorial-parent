@@ -1,0 +1,8 @@
+{
+  "id": "iframe-tag",
+  "sectionText": "Containers",
+  "subsectionText": "Standard Containers",
+  "titleText": "<iframe>",
+  "descriptionText": "Defines an inline frame",
+  "codeText": "<iframe name=\"example-iframe\"\n\tsrc=\"#\"\n\tsrcdoc=\"<p>iFrame can be used to render a nested document</p>\"\n\twidth=\"100%\"\n\theight=\"100%\"\n\tsandbox=\"allow-scripts\"\n\tstyle=\"background-color: #FFFFFF;\">\n  No iFrames support\n</iframe>"
+}

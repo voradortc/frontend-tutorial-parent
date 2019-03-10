@@ -1,0 +1,8 @@
+{
+  "id": "abbr-tag",
+  "sectionText": "Text",
+  "subsectionText": "Quotations",
+  "titleText": "<abbr>",
+  "descriptionText": "An abbreviation or an acronym",
+  "codeText": "<abbr title=\"World Wrestling Federation\">WWF</abbr>"
+}

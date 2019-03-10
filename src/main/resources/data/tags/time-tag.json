@@ -1,0 +1,8 @@
+{
+  "id": "time-tag",
+  "sectionText": "Text",
+  "subsectionText": "Quotations",
+  "titleText": "<time>",
+  "descriptionText": "A date/time label",
+  "codeText": "I'm going home at <time datetime=\"16:00-05:00\">16:00</time>"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "embed-tag",
+  "sectionText": "Containers",
+  "subsectionText": "Standard Containers",
+  "titleText": "<embed>",
+  "descriptionText": "Defines a container for an external (non-HTML) application",
+  "codeText": "<embed src=\"data/files/test.pdf\" type=\"application/pdf\" width=\"100%\" height=\"100%\"/>"
+}

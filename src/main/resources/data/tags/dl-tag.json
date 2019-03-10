@@ -1,0 +1,8 @@
+{
+  "id": "dl-tag",
+  "sectionText": "Data Grouping",
+  "subsectionText": "Lists",
+  "titleText": "<dl>, <dt> and <dd>",
+  "descriptionText": "A description list",
+  "codeText": "<dl>\n  <dt>Term 1</dt>\n  <dd>Description 1</dd>\n  <dt>Term 2</dt>\n  <dd>Description 2</dd>\n</dl>"
+}

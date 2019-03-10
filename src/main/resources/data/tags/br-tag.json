@@ -1,0 +1,8 @@
+{
+  "id": "br-tag",
+  "sectionText": "Text",
+  "subsectionText": "Sectioning",
+  "titleText": "<br>",
+  "descriptionText": "A single line break",
+  "codeText": "There's a line break <br/> before this text"
+}

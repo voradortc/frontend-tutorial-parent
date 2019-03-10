@@ -1,0 +1,8 @@
+{
+  "id": "mark-tag",
+  "sectionText": "Text",
+  "subsectionText": "Format",
+  "titleText": "<mark>",
+  "descriptionText": "Marked/highlighted text",
+  "codeText": "We had earnings of <mark style=\"color: silver; background-color: gold;\">50%</mark> during this trimester"
+}

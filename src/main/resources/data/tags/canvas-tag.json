@@ -1,0 +1,8 @@
+{
+  "id": "canvas-tag",
+  "sectionText": "Multimedia",
+  "subsectionText": "Canvas",
+  "titleText": "<canvas>",
+  "descriptionText": "Used to draw graphics, on the fly, via scripting",
+  "codeText": "<canvas id=\"canvas-example\" style=\"border: 1px dashed gold; height: 100%; width: 100%;\"></canvas>\n<script>\n  var canvas = document.getElementById( 'canvas-example' );\n  var context = canvas.getContext( '2d' );\n  context.fillStyle = '#FF9900';\n  context.fillRect( 0, 0, context.canvas.clientWidth, context.canvas.clientHeight );\n</script>"
+}

@@ -1,0 +1,13 @@
+### Intellij ###
+.idea/
+*.iml
+
+### Node.js ###
+node_modules/
+target/
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini

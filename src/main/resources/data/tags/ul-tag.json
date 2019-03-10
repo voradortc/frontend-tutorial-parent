@@ -1,0 +1,8 @@
+{
+  "id": "ul-tag",
+  "sectionText": "Data Grouping",
+  "subsectionText": "Lists",
+  "titleText": "<ul> and <li>",
+  "descriptionText": "An unordered list",
+  "codeText": "<ul style=\"list-style-type: square;\">\n  <li>Item 1</li>\n  <li>Item 2</li>\n  <li>Item 3</li></ul>"
+}

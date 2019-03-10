@@ -1,0 +1,104 @@
+.tagsSection {
+  background-color: #303030;
+  border-radius: 1vw;
+  margin: 0 1vw 1vw;
+  padding: 1vw;
+
+  .tagsSectionTitle {
+    font-size: 2.0vw;
+    margin: 0;
+    padding: 1vw;
+  }
+
+  .tagsSubsection {
+    margin: 0;
+    padding: 0;
+
+    .tagsSubsectionTitle {
+      font-size: 1.8vw;
+      margin: 0;
+      padding: 1vw;
+    }
+
+    .tagContent {
+      display: grid;
+      grid-template-areas: 'tag-content-name tag-content-name' 'tag-content-description tag-content-description' 'tag-content-code tag-content-example';
+      grid-template-columns: 50% 50%;
+      padding: 0 1vw 1vw;
+
+      .tagContentName {
+        font-size: 1.1vw;
+        font-weight: bold;
+        grid-area: tag-content-name;
+        padding: 2vw 0;
+      }
+
+      .tagContentDescription {
+        background-color: #202020;
+        border-radius: 1vw;
+        grid-area: tag-content-description;
+        margin-bottom: 1vw;
+        padding: 2vw;
+      }
+
+      .tagContentCode {
+        background-color: #202020;
+        border-radius: 1vw;
+        font-family: "Consolas", monospace;
+        font-size: 0.8vw;
+        grid-area: tag-content-code;
+        margin: 1vw 1vw 0 0;
+        overflow: hidden;
+        padding: 2vw;
+        text-overflow: ellipsis;
+        white-space: pre;
+      }
+
+      .tagContentExample {
+        background-color: #202020;
+        border-radius: 1vw;
+        grid-area: tag-content-example;
+        margin: 1vw 0 0 1vw;
+        overflow: hidden;
+        padding: 2vw;
+      }
+    }
+  }
+}
+
+@media only screen and ( max-width: 768px ) {
+  $nav-height: 4vw;
+
+  .tagsSection {
+    position: relative;
+    top: $nav-height;
+
+    .tagsSectionTitle {
+      font-size: 3vw;
+    }
+
+    .tagsSubsection {
+      .tagsSubsectionTitle {
+        font-size: 2.8vw;
+      }
+
+      .tagContent {
+        display: flex;
+        flex-direction: column;
+
+        .tagContentName {
+          font-size: 2.1vw;
+        }
+
+        .tagContentCode {
+          font-size: 1.9vw;
+          margin: 1vw 0;
+        }
+
+        .tagContentExample {
+          margin: 1vw 0 0;
+        }
+      }
+    }
+  }
+}

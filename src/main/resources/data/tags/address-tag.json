@@ -1,0 +1,8 @@
+{
+  "id": "address-tag",
+  "sectionText": "Text",
+  "subsectionText": "Quotations",
+  "titleText": "<address>",
+  "descriptionText": "Contact information for the author/owner of a document",
+  "codeText": "I live at <address style=\"display: inline;\">Fake St. 123; Tacoma, Washington</address>"
+}

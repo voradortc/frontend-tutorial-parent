@@ -1,0 +1,8 @@
+{
+  "id": "h1-tag",
+  "sectionText": "Text",
+  "subsectionText": "Sectioning",
+  "titleText": "<h1>",
+  "descriptionText": "Most important heading",
+  "codeText": "<h1 style=\"margin: 0\">Planet</h1>"
+}

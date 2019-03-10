@@ -1,0 +1,8 @@
+{
+  "id": "ruby-tag",
+  "sectionText": "Text",
+  "subsectionText": "Asia",
+  "titleText": "<ruby>, <rt> and <rp>",
+  "descriptionText": "A small extra text, attached to the main text indicating the meaning of the characters in asian languages",
+  "codeText": "<ruby>\n  私\n  <rt>わたし</rt>\n  <rp>わたし</rp>\n</ruby>"
+}

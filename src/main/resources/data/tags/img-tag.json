@@ -1,0 +1,8 @@
+{
+  "id": "img-tag",
+  "sectionText": "Multimedia",
+  "subsectionText": "Images",
+  "titleText": "<img>, <map> and <area>",
+  "descriptionText": "An image, and areas indicating interactive parts of it",
+  "codeText": "<img src=\"data/img/image-fit.jpg\" alt=\"Standard image\" usemap=\"#example-map\" style=\"background: linear-gradient( to right, rgba( 0, 0, 0, 0 ), #FFFFFF, rgba( 0, 0, 0, 0 ) ) border-box; border: 1vw solid transparent; border-image: url( 'data/img/border-image.png' ) 64 round; height: 14vw; left: 50%; object-fit: contain; position: relative; transform: translateX( -50% ); width: 25vw;\"/>\n<map name=\"example-map\">\n  <area shape=\"rect\" coords=\"0, 0, 182, 102\" href=\"#\" alt=\"Area 1\" download=\"document\" rel=\"nofollow\" target=\"_self\"/>\n</map>"
+}

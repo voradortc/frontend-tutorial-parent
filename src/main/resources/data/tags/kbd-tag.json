@@ -1,0 +1,8 @@
+{
+  "id": "kbd-tag",
+  "sectionText": "Text",
+  "subsectionText": "Computercode",
+  "titleText": "<kbd>",
+  "descriptionText": "Keyboard input",
+  "codeText": "<kbd>Please enter the value of the variable</kbd>"
+}

@@ -1,0 +1,36 @@
+$nav-height: 2vw;
+$nav-width: 98vw / 6;
+
+.tagContentNav {
+  background-color: #101010;
+  display: block;
+  height: 0;
+  line-height: $nav-height;
+  margin: 0;
+  overflow: hidden;
+  padding: 0 1vw;
+  text-align: left;
+  text-overflow: ellipsis;
+  transition: height 0.5s ease-in;
+  width: $nav-width;
+  white-space: nowrap;
+
+  &:hover {
+    background-image: radial-gradient( #303030, transparent 50% );
+  }
+
+  &:link, &:visited, &:hover, &:active {
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+@media only screen and ( max-width: 768px ) {
+  $nav-height: 4vw;
+  $nav-width: 100vw;
+
+  .tagContentNav {
+    line-height: $nav-height;
+    width: $nav-width;
+  }
+}

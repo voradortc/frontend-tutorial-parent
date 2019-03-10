@@ -1,0 +1,8 @@
+{
+  "id": "var-tag",
+  "sectionText": "Text",
+  "subsectionText": "Computercode",
+  "titleText": "<var>",
+  "descriptionText": "A variable",
+  "codeText": "<var>x</var> = 5;"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "pre-tag",
+  "sectionText": "Text",
+  "subsectionText": "Format",
+  "titleText": "<pre>",
+  "descriptionText": "Preformatted text",
+  "codeText": "<pre style=\"margin: 0;\">Spaces and linebreaks   will be   kept</pre>"
+}

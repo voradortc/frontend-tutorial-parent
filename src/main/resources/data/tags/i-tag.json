@@ -1,0 +1,8 @@
+{
+  "id": "i-tag",
+  "sectionText": "Text",
+  "subsectionText": "Format",
+  "titleText": "<i>",
+  "descriptionText": "A part of text in an alternate voice or mood",
+  "codeText": "I'm not <i>angry</i>"
+}

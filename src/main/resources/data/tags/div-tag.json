@@ -1,0 +1,8 @@
+{
+  "id": "div-tag",
+  "sectionText": "Containers",
+  "subsectionText": "Standard Containers",
+  "titleText": "<div>",
+  "descriptionText": "A section in a document",
+  "codeText": "<div style=\"border: 1px dashed aqua;\">A div is a container</div>\n<div style=\"border: 1px dashed red;\">That renders in a block</div>"
+}

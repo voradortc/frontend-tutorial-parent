@@ -1,0 +1,8 @@
+{
+  "id": "a-tag",
+  "sectionText": "Text",
+  "subsectionText": "Sectioning",
+  "titleText": "<a>",
+  "descriptionText": "A hyperlink anchor",
+  "codeText": "Click <a download=\"document\"\n\thref=\"#\"\n\threflang=\"en\"\n\trel=\"tag\"\n\ttarget=\"_self\"\n\ttype=\"text/html\">\n  here\n</a> to download this document"
+}

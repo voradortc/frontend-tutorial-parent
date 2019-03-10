@@ -1,0 +1,390 @@
+[
+  {
+    "id": "containers-section",
+    "titleText": "Containers",
+    "subsections": [
+      {
+        "id": "standard-containers-subsection",
+        "titleText": "Standard Containers",
+        "tags": [
+          {
+            "id": "div-tag",
+            "titleText": "<div>"
+          },
+          {
+            "id": "span-tag",
+            "titleText": "<span>"
+          },
+          {
+            "id": "iframe-tag",
+            "titleText": "<iframe>"
+          },
+          {
+            "id": "embed-tag",
+            "titleText": "<embed>"
+          },
+          {
+            "id": "object-tag",
+            "titleText": "<object> and <param>"
+          }
+        ]
+      },
+      {
+        "id": "semantic-containers-subsection",
+        "titleText": "Semantic Containers",
+        "tags": [
+          {
+            "id": "main-tag",
+            "titleText": "<main>, <nav>, <section>, <article>, <header>, <aside> and <footer>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "text-section",
+    "titleText": "Text",
+    "subsections": [
+      {
+        "id": "sectioning-subsection",
+        "titleText": "Sectioning",
+        "tags": [
+          {
+            "id": "h1-tag",
+            "titleText": "<h1>"
+          },
+          {
+            "id": "h2-tag",
+            "titleText": "<h2>"
+          },
+          {
+            "id": "h3-tag",
+            "titleText": "<h3>"
+          },
+          {
+            "id": "h4-tag",
+            "titleText": "<h4>"
+          },
+          {
+            "id": "h5-tag",
+            "titleText": "<h5>"
+          },
+          {
+            "id": "h6-tag",
+            "titleText": "<h6>"
+          },
+          {
+            "id": "p-tag",
+            "titleText": "<p>"
+          },
+          {
+            "id": "br-tag",
+            "titleText": "<br>"
+          },
+          {
+            "id": "wbr-tag",
+            "titleText": "<wbr>"
+          },
+          {
+            "id": "hr-tag",
+            "titleText": "<hr>"
+          },
+          {
+            "id": "a-tag",
+            "titleText": "<a>"
+          }
+        ]
+      },
+      {
+        "id": "format-subsection",
+        "titleText": "Format",
+        "tags": [
+          {
+            "id": "b-tag",
+            "titleText": "<b>"
+          },
+          {
+            "id": "i-tag",
+            "titleText": "<i>"
+          },
+          {
+            "id": "u-tag",
+            "titleText": "<u>"
+          },
+          {
+            "id": "s-tag",
+            "titleText": "<s>"
+          },
+          {
+            "id": "sub-tag",
+            "titleText": "<sub>"
+          },
+          {
+            "id": "sup-tag",
+            "titleText": "<sup>"
+          },
+          {
+            "id": "small-tag",
+            "titleText": "<small>"
+          },
+          {
+            "id": "mark-tag",
+            "titleText": "<mark>"
+          },
+          {
+            "id": "pre-tag",
+            "titleText": "<pre>"
+          }
+        ]
+      },
+      {
+        "id": "semantics-subsection",
+        "titleText": "Semantics",
+        "tags": [
+          {
+            "id": "strong-tag",
+            "titleText": "<strong>"
+          },
+          {
+            "id": "em-tag",
+            "titleText": "<em>"
+          },
+          {
+            "id": "ins-tag",
+            "titleText": "<ins>"
+          },
+          {
+            "id": "del-tag",
+            "titleText": "<del>"
+          }
+        ]
+      },
+      {
+        "id": "quotations-subsection",
+        "titleText": "Quotations",
+        "tags": [
+          {
+            "id": "q-tag",
+            "titleText": "<q>"
+          },
+          {
+            "id": "blockquote-tag",
+            "titleText": "<blockquote>"
+          },
+          {
+            "id": "abbr-tag",
+            "titleText": "<abbr>"
+          },
+          {
+            "id": "dfn-tag",
+            "titleText": "<dfn>"
+          },
+          {
+            "id": "cite-tag",
+            "titleText": "<cite>"
+          },
+          {
+            "id": "time-tag",
+            "titleText": "<time>"
+          },
+          {
+            "id": "address-tag",
+            "titleText": "<address>"
+          },
+          {
+            "id": "figure-tag",
+            "titleText": "<figure> and <figcaption>"
+          },
+          {
+            "id": "details-tag",
+            "titleText": "<details> and <summary>"
+          }
+        ]
+      },
+      {
+        "id": "computercode-subsection",
+        "titleText": "Computercode",
+        "tags": [
+          {
+            "id": "code-tag",
+            "titleText": "<code>"
+          },
+          {
+            "id": "var-tag",
+            "titleText": "<var>"
+          },
+          {
+            "id": "kbd-tag",
+            "titleText": "<kbd>"
+          },
+          {
+            "id": "samp-tag",
+            "titleText": "<samp>"
+          }
+        ]
+      },
+      {
+        "id": "asia-subsection",
+        "titleText": "Asia",
+        "tags": [
+          {
+            "id": "ruby-tag",
+            "titleText": "<ruby>, <rt> and <rp>"
+          },
+          {
+            "id": "bdo-tag",
+            "titleText": "<bdo> and <bdi>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-grouping-section",
+    "titleText": "Data Grouping",
+    "subsections": [
+      {
+        "id": "lists-subsection",
+        "titleText": "Lists",
+        "tags": [
+          {
+            "id": "ul-tag",
+            "titleText": "<ul> and <li>"
+          },
+          {
+            "id": "ol-tag",
+            "titleText": "<ol> and <li>"
+          },
+          {
+            "id": "dl-tag",
+            "titleText": "<dl>, <dt> and <dd>"
+          }
+        ]
+      },
+      {
+        "id": "tables-subsection",
+        "titleText": "Tables",
+        "tags": [
+          {
+            "id": "table-tag",
+            "titleText": "<table>, <colgroup>, <col>, <thead>, <th>, <tbody>, <tr>, <td> and <tfoot>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "forms-and-controls-section",
+    "titleText": "User Forms and Controls",
+    "subsections": [
+      {
+        "id": "forms-subsection",
+        "titleText": "Forms",
+        "tags": [
+          {
+            "id": "form-tag",
+            "titleText": "<form>, <fieldset>, <legend>, <label>, <select>, <optgroup>, <option>, <textarea>, <input>, and <datalist>"
+          }
+        ]
+      },
+      {
+        "id": "controls-subsection",
+        "titleText": "Controls",
+        "tags": [
+          {
+            "id": "button-tag",
+            "titleText": "<button>"
+          },
+          {
+            "id": "meter-tag",
+            "titleText": "<meter>"
+          },
+          {
+            "id": "progress-tag",
+            "titleText": "<progress>"
+          },
+          {
+            "id": "output-tag",
+            "titleText": "<output>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "multimedia-section",
+    "titleText": "Multimedia",
+    "subsections": [
+      {
+        "id": "canvas-subsection",
+        "titleText": "Canvas",
+        "tags": [
+          {
+            "id": "canvas-tag",
+            "titleText": "<canvas>"
+          }
+        ]
+      },
+      {
+        "id": "images-subsection",
+        "titleText": "Images",
+        "tags": [
+          {
+            "id": "picture-tag",
+            "titleText": "<picture>, <source> and <img>"
+          },
+          {
+            "id": "img-tag",
+            "titleText": "<img>, <map> and <area>"
+          }
+        ]
+      },
+      {
+        "id": "audio-subsection",
+        "titleText": "Audio",
+        "tags": [
+          {
+            "id": "audio-tag",
+            "titleText": "<audio>, <source> and <track>"
+          }
+        ]
+      },
+      {
+        "id": "video-subsection",
+        "titleText": "Video",
+        "tags": [
+          {
+            "id": "video-tag",
+            "titleText": "<video>, <source> and <track>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scripting-section",
+    "titleText": "Scripting",
+    "subsections": [
+      {
+        "id": "scripts-subsection",
+        "titleText": "Scripts",
+        "tags": [
+          {
+            "id": "script-tag",
+            "titleText": "<script> and <noscript>"
+          }
+        ]
+      },
+      {
+        "id": "templates-subsection",
+        "titleText": "Templates",
+        "tags": [
+          {
+            "id": "template-tag",
+            "titleText": "<template>"
+          }
+        ]
+      }
+    ]
+  }
+]

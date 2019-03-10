@@ -1,0 +1,8 @@
+{
+  "id": "script-tag",
+  "sectionText": "Scripting",
+  "subsectionText": "Scripts",
+  "titleText": "<script> and <noscript>",
+  "descriptionText": "A client-side script",
+  "codeText": "<em id=\"script-example\">\n  <noscript>Who doesn't support JS in this day and age?</noscript>\n</em>\n<script type=\"application/javascript\" async defer>\n  document.getElementById( \"script-example\" ).innerHTML = \"Script running!\";\n</script>"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "hr-tag",
+  "sectionText": "Text",
+  "titleText": "<hr>",
+  "descriptionText": "A thematic change in the content",
+  "codeText": "<hr/>"
+}

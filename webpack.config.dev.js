@@ -1,5 +1,5 @@
 const CopyWebpackPlugin = require( "copy-webpack-plugin" ),
-      ExtractTextWebpackPlugin = require( "extract-text-webpack-plugin" ),
+      MiniCssExtractPlugin = require( "mini-css-extract-plugin" ),
       Path = require( "path" );
 
 module.exports = {
@@ -10,18 +10,16 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /(node_modules)/,
-                use: [{ loader: "babel-loader", options: { presets: ["react"] } }]
+                use: [{ loader: "babel-loader", options: { presets: ["@babel/preset-react"] } }]
             },
             {
                 test: /\.scss$/,
                 exclude: /(node_modules)/,
-                use: ExtractTextWebpackPlugin.extract( { use: [
-                        {
-                            loader: "css-loader",
-                            options: { importLoaders: 1, modules: true, url: false, minimize: false, localIdentName: "[local]" }
-                        },
-                        { loader: "sass-loader" }
-                    ] } )
+                use: [
+                    { loader: MiniCssExtractPlugin.loader },
+                    { loader: "css-loader", options: { url: false, modules: true } },
+                    { loader: "sass-loader" }
+                ]
             }
         ]
     },
@@ -34,6 +32,6 @@ module.exports = {
             { from: "src/main/html/", to: "" },
             { from: "src/main/resources/", to: "" }
         ] ),
-        new ExtractTextWebpackPlugin( "tag-examples.css" )
+        new MiniCssExtractPlugin( { filename: "tag-examples.css" } )
     ]
 };

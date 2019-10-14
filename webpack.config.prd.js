@@ -1,5 +1,7 @@
 const CopyWebpackPlugin = require( "copy-webpack-plugin" ),
-      ExtractTextWebpackPlugin = require( "extract-text-webpack-plugin" ),
+      MiniCssExtractPlugin = require( "mini-css-extract-plugin" ),
+      OptimizeCssAssetsPlugin = require( "optimize-css-assets-webpack-plugin" ),
+      TerserPlugin = require( "terser-webpack-plugin" ),
       Path = require( "path" );
 
 module.exports = {
@@ -10,30 +12,23 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /(node_modules)/,
-                use: [{ loader: "babel-loader", options: { presets: ["react"] } }]
+                use: [{ loader: "babel-loader", options: { presets: ["@babel/preset-react"] } }]
             },
             {
                 test: /\.scss$/,
                 exclude: /(node_modules)/,
-                use: ExtractTextWebpackPlugin.extract( { use: [
-                        {
-                            loader: "css-loader",
-                            options: { importLoaders: 1, modules: true, url: false, minimize: true, localIdentName: "[local]" }
-                        },
-                        { loader: "sass-loader" }
-                    ] } )
+                use: [
+                    { loader: MiniCssExtractPlugin.loader },
+                    { loader: "css-loader", options: { url: false, modules: true } },
+                    { loader: "sass-loader" }
+                ]
             }
         ]
     },
-    output: {
-        filename: "tag-examples.js",
-        path: Path.resolve( __dirname, "target" )
-    },
+    output: { filename: "tag-examples.js", path: Path.resolve( __dirname, "target" ) },
     plugins: [
-        new CopyWebpackPlugin( [
-            { from: "src/main/html/", to: "" },
-            { from: "src/main/resources/", to: "" }
-        ] ),
-        new ExtractTextWebpackPlugin( "tag-examples.css" )
-    ]
+        new CopyWebpackPlugin( [{ from: "src/main/html/", to: "" }, { from: "src/main/resources/", to: "" }] ),
+        new MiniCssExtractPlugin( { filename: "tag-examples.css" } )
+    ],
+    optimization: { minimizer: [new TerserPlugin( { extractComments: false } ), new OptimizeCssAssetsPlugin()] }
 };

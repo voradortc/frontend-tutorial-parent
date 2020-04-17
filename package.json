@@ -4,8 +4,8 @@
   "description": "A test project for React.js and JSX",
   "private": true,
   "scripts": {
-    "build-dev": "webpack --config webpack.config.dev.js && start target/tag-examples.html",
-    "build-prd": "webpack --config webpack.config.prd.js && start target/tag-examples.html"
+    "build-dev": "webpack --config webpack.config.dev.js",
+    "build-prd": "webpack --config webpack.config.prd.js"
   },
   "keywords": [
     "Webpack",
@@ -17,7 +17,7 @@
   "dependencies": {
     "webpack": "4.41.1",
     "webpack-cli": "3.3.9",
-    "copy-webpack-plugin": "5.0.4",
+    "copy-webpack-plugin": "5.1.1",
     "mini-css-extract-plugin": "0.8.0",
     "babel-loader": "8.0.6",
     "@babel/core": "7.6.4",
@@ -25,7 +25,7 @@
     "react": "16.10.2",
     "react-dom": "16.10.2",
     "sass-loader": "8.0.0",
-    "node-sass": "4.12.0",
+    "node-sass": "4.13.1",
     "normalize.css": "8.0.1",
     "css-loader": "3.2.0",
     "terser-webpack-plugin": "2.1.3",

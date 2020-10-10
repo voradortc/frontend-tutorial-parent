@@ -23,15 +23,9 @@ module.exports = {
             }
         ]
     },
-    output: {
-        filename: "tag-examples.js",
-        path: Path.resolve( __dirname, "target" )
-    },
+    output: { filename: "tag-examples.js", path: Path.resolve( __dirname, "target" ) },
     plugins: [
-        new CopyWebpackPlugin( [
-            { from: "src/main/html/", to: "" },
-            { from: "src/main/resources/", to: "" }
-        ] ),
+        new CopyWebpackPlugin( { patterns: [{ from: "src/main/html/", to: "" }, { from: "src/main/resources/", to: "" }] } ),
         new MiniCssExtractPlugin( { filename: "tag-examples.css" } )
     ]
 };

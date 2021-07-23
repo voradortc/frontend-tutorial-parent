@@ -4,8 +4,8 @@
   "description": "A test project for React.js and JSX",
   "private": true,
   "scripts": {
-    "build-dev": "webpack --config webpack.config.dev.js",
-    "build-prd": "webpack --config webpack.config.prd.js"
+    "build-dev": "webpack --env name=dev",
+    "build-prd": "webpack --env name=prd"
   },
   "keywords": [
     "Webpack",

@@ -1,7 +1,7 @@
 import * as React from "react";
 
-import {deprecatedEval} from "../deprecated";
-import {executeRequest} from "../requests";
+import { deprecatedEval } from "../deprecated";
+import { executeRequest } from "../requests";
 
 import SectionNav from "./section-nav";
 import SubsectionNav from "./subsection-nav";

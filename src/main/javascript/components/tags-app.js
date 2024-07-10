@@ -1,4 +1,5 @@
 import * as React from "react";
+import * as Style from "../../scss/tags-app.scss";
 
 import { deprecatedEval } from "../deprecated";
 import { executeRequest } from "../requests";
@@ -7,15 +8,11 @@ import SectionNav from "./section-nav";
 import SubsectionNav from "./subsection-nav";
 import TagNav from "./tag-nav";
 import MainTag from "./main-tag";
-import Style from "../../scss/tags-app.scss";
 
 /**
  * Class that defines a the application component
  *
  * @property {object} props the default properties
- * @property {object} props.styles the styles object
- * @property {string} props.styles.tagsMainNav the styles object property
- * @property {string} props.styles.tagsMainTitle the styles object property
  */
 class TagsApp extends React.Component {
     /**
@@ -33,11 +30,9 @@ class TagsApp extends React.Component {
      * Standard function executed when a component is mounted
      */
     componentDidMount() {
-        const styles = this.props.styles;
-
         executeRequest( "GET", "data/nav-data.json" ).then( sections => {
             if ( sections ) {
-                sections = sections.map( section => TagsApp.sectionNavMap( section, this.changeTag, styles ) );
+                sections = sections.map( section => TagsApp.sectionNavMap( section, this.changeTag ) );
                 this.setState( { sections } );
             }
         } );
@@ -83,16 +78,15 @@ class TagsApp extends React.Component {
      *
      * @param {object} section the section to map
      * @param {function} clickHandler the function to handle clicks
-     * @param {object} styles the global application styles
      * @returns {*} the section to render
      */
-    static sectionNavMap( section, clickHandler, styles ) {
+    static sectionNavMap( section, clickHandler ) {
         if ( section.subsections ) {
             const subsections = section.subsections;
-            section.subsections = subsections.map( subsection => TagsApp.subsectionNavMap( subsection, clickHandler, styles ) );
+            section.subsections = subsections.map( subsection => TagsApp.subsectionNavMap( subsection, clickHandler ) );
         }
 
-        return <SectionNav key={section.id} section={section} styles={styles}/>
+        return <SectionNav key={section.id} section={section}/>
     }
 
     /**
@@ -100,16 +94,15 @@ class TagsApp extends React.Component {
      *
      * @param {object} subsection the subsection to map
      * @param {function} clickHandler the function to handle clicks
-     * @param {object} styles the global application styles
      * @returns {*} the subsection to render
      */
-    static subsectionNavMap( subsection, clickHandler, styles ) {
+    static subsectionNavMap( subsection, clickHandler ) {
         if ( subsection.tags ) {
             const tags = subsection.tags;
-            subsection.tags = tags.map( tag => TagsApp.tagNavMap( tag, clickHandler, styles ) );
+            subsection.tags = tags.map( tag => TagsApp.tagNavMap( tag, clickHandler ) );
         }
 
-        return <SubsectionNav key={subsection.id} subsection={subsection} styles={styles}/>
+        return <SubsectionNav key={subsection.id} subsection={subsection}/>
     }
 
     /**
@@ -117,11 +110,10 @@ class TagsApp extends React.Component {
      *
      * @param {object} tag the tag to map
      * @param {function} clickHandler the function to handle clicks
-     * @param {object} styles the global application styles
      * @returns {*} the tag to render
      */
-    static tagNavMap( tag, clickHandler, styles ) {
-        return <TagNav key={tag.id} clickHandler={clickHandler} tag={tag} styles={styles}/>;
+    static tagNavMap( tag, clickHandler ) {
+        return <TagNav key={tag.id} clickHandler={clickHandler} tag={tag}/>;
     }
 }
 

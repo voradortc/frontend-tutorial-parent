@@ -1,5 +1,7 @@
+@use "sass:math";
+
 $nav-height: 2vw;
-$nav-width: 98vw / 6;
+$nav-width: math.div( 98vw, 6 );
 
 .tagsSubsectionNav {
   margin: 0;

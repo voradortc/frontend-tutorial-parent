@@ -1,5 +1,5 @@
 import * as React from "react";
-import Style from "../../scss/section-nav.scss";
+import * as Style from "../../scss/section-nav.scss";
 
 /**
  * Class that defines a section navigation component

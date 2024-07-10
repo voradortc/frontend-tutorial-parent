@@ -1,16 +1,16 @@
 import * as React from "react";
-import Style from "../../scss/main-tag.scss";
+import * as Style from "../../scss/main-tag.scss";
 
 /**
  * Class that defines the main tag component
  *
  * @property {object} props the default properties
- * @property {object} tag the tag information
- * @property {string} tag.sectionText the tag section title
- * @property {string} tag.subsectionText the tag subsection title
- * @property {string} tag.titleText the tag title
- * @property {string} tag.descriptionText the tag description
- * @property {string} tag.codeText the tag code
+ * @property {object} props.tag the tag information
+ * @property {string} props.tag.sectionText the tag section title
+ * @property {string} props.tag.subsectionText the tag subsection title
+ * @property {string} props.tag.titleText the tag title
+ * @property {string} props.tag.descriptionText the tag description
+ * @property {string} props.tag.codeText the tag code
  */
 class MainTag extends React.Component {
     /**

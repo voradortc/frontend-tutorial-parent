@@ -1,5 +1,5 @@
 import * as React from "react";
-import Style from "../../scss/tag-nav.scss";
+import * as Style from "../../scss/tag-nav.scss";
 
 /**
  * Class that defines a tag navigation component

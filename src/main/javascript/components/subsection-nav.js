@@ -1,5 +1,5 @@
 import * as React from "react";
-import Style from "../../scss/subsection-nav.scss";
+import * as Style from "../../scss/subsection-nav.scss";
 
 /**
  * Class that defines a subsection navigation component

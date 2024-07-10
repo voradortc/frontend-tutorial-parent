@@ -1,5 +1,7 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
+
 import TagsApp from "./components/tags-app";
 
-window.addEventListener( "load", () => ReactDOM.render( <TagsApp/>, document.getElementById( "tags-entry" ) ) );
+const root = createRoot( document.getElementById( "tags-entry" ) );
+window.addEventListener( "load", () => root.render( <TagsApp/> ) );

@@ -1,7 +1,7 @@
 const CopyWebpackPlugin = require( "copy-webpack-plugin" ),
       MiniCssExtractPlugin = require( "mini-css-extract-plugin" ),
-      OptimizeCssAssetsPlugin = require( "optimize-css-assets-webpack-plugin" ),
       TerserPlugin = require( "terser-webpack-plugin" ),
+      CssMinimizerWebpackPlugin = require( "css-minimizer-webpack-plugin" ),
       Path = require( "path" );
 
 function main_module( env ) {
@@ -38,7 +38,7 @@ function main_module( env ) {
         return {
             ...data,
             mode: "production",
-            optimization: { minimizer: [new TerserPlugin( { extractComments: false } ), new OptimizeCssAssetsPlugin()] }
+            optimization: { minimizer: [new TerserPlugin( { extractComments: false } ), new CssMinimizerWebpackPlugin()] }
         };
     } else if ( "dev" === env.name ) {
         return {

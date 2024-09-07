@@ -1,5 +1,5 @@
 ### VisualStudioCode ###
-.vscode/
+.vscode
 
 ### Windows ###
 Thumbs.db
@@ -12,5 +12,5 @@ ehthumbs_vista.db
 .Trashes
 
 ### Node.js ###
-node_modules/
-build/
+node_modules
+build
